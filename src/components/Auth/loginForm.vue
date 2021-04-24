@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto my-60">
     <div
-      class="bg-white relative shadow-xl w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 mx-auto rounded-md"
+      class="bg-gray-300 relative shadow-xl w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 mx-auto rounded-md"
     >
       <div class="flex justify-left">
         <!--Imagen tomada de randomUser -->
