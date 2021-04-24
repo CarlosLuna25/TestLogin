@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradiente{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+    border: 1px solid lightgray;
+  
+    margin: 0 auto ;
+    background-image: linear-gradient(234deg, #525ac7,#ac5abe);
+}
+.logincard{
+    width: 500px;
+    background-color: white;
+    border: 1px solid lightgray;
+  
+    margin-top: 10%;
+    
+}
+.btn-login{
+    background-color: #7f5ac3 !important;
+    margin-left: 35%;
+}
