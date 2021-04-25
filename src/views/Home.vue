@@ -19,7 +19,7 @@
 
           <div class="mt-16 pb-6">
             <h1 class="font-bold text-center text-3xl text-gray-900">
-              Bienvenido Eduard Pantazi
+              Bienvenido {{currentUser.name}}
             </h1>
             <p class="text-center text-sm text-gray-400 font-medium">
               Te has logueado correctamente
@@ -35,7 +35,11 @@
 </template>
 <script>
 import navbar from "@/components/nav/navbar.vue";
+import { mapState } from "vuex";
 export default {
+  computed:{
+    ...mapState(['currentUser'])
+  },
   components: {
     navbar,
   },
